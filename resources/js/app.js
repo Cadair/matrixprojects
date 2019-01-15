@@ -6,18 +6,7 @@
             'name' : 'English',
             'code' : 'en'
         },
-        {
-            'name' : 'Bahasa',
-            'code' : 'id'
-        },
-        {
-            'name' : 'हिन्दी',
-            'code' : 'hi'
-        },
-        {
-            'name' : 'Romanian',
-            'code' : 'ro'
-        }];
+        ];
         selected_language = JSON.parse(window.localStorage.getItem('lang')) || langs[0];
 
         return {
